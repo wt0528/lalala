@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>水平定义列表</title>
+<link rel="icon" href="../../favicon.ico">
+<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+<h3>示例1</h3>
+<form role="form">
+  <div class="form-group has-success">
+    <label class="control-label" for="inputSuccess1">成功状态</label>
+    <input type="text" class="form-control" id="inputSuccess1" placeholder="成功状态" >
+  </div>
+  
+  <div class="form-group has-warning">
+    <label class="control-label" for="inputWarning1">警告状态</label>
+    <input type="text" class="form-control" id="inputWarning1" placeholder="警告状态">
+  </div>
+  
+  <div class="form-group has-error">
+    <label class="control-label" for="inputError1">错误状态</label>
+    <input type="text" class="form-control" id="inputError1" placeholder="错误状态">
+  </div>
+</form>  
+<br>
+<br>
+<br>
+<h3>示例2</h3>   
+<form role="form">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label" for="inputSuccess1">成功状态</label>
+    <input type="text" class="form-control" id="inputSuccess1" placeholder="成功状态" >
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+  </div>
+  <div class="form-group has-warning has-feedback">
+    <label class="control-label" for="inputWarning1">警告状态</label>
+    <input type="text" class="form-control" id="inputWarning1" placeholder="警告状态">
+    <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+  </div>
+  <div class="form-group has-error has-feedback">
+    <label class="control-label" for="inputError1">错误状态</label>
+    <input type="text" class="form-control" id="inputError1" placeholder="错误状态">
+    <span class="glyphicon glyphicon-remove form-control-feedback"></span>  
+  </div>
+
+</form>ody>
+</html>
